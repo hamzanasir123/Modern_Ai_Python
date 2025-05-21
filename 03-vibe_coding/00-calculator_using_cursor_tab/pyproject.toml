@@ -1,0 +1,17 @@
+[project]
+name = "00-calculator-using-cursor-tab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hamzanasir123", email = "hk435981@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+00-calculator-using-cursor-tab = "00_calculator_using_cursor_tab:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
